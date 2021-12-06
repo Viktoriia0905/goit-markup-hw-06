@@ -625,7 +625,9 @@ margin-bottom: 20px;
 .subscribe-container{
     margin-left: 93px;
 }
-
+.subscribe-form {
+display: flex;
+}
 .subscribe-title{
 font-weight: 700;
 font-size: 14px;
@@ -648,7 +650,7 @@ margin-bottom: 20px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    display: flex;
+    
 }
 .subscribe-form-input::placeholder{
 font-family: Roboto;
@@ -677,6 +679,7 @@ border-radius: 4px;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-left: 12px;
 transition: background-color 250ms
             cubic-bezier(0.4, 0, 0.2, 1);
 }
